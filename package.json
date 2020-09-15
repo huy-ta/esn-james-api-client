@@ -1,0 +1,38 @@
+{
+  "name": "esn-james-api-client",
+  "version": "0.0.1",
+  "description": "JS library for ESN James API client",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "keywords": [
+    "esn",
+    "dav",
+    "import"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenPaaS-Suite/esn-dav-import-client"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "@linagora/eslint-config-linagora-esn": "2.0.0",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "esn-api-client": "github:openpaas-suite/esn-api-client#main"
+  }
+}

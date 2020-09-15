@@ -1,0 +1,6 @@
+{
+  "extends": "@linagora/eslint-config-linagora-esn",
+  "rules": {
+    "import/prefer-default-export": "off"
+  }
+}
